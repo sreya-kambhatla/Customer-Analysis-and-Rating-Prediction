@@ -5,15 +5,18 @@ In this project, our focus will be on analyzing hotel reviews and corresponding 
 TripAdvisor, Inc. is a U.S.-based online travel company that manages a website and mobile app featuring user-generated content and a comparison-shopping platform. The company facilitates online reservations and bookings for hotels, transportation, lodging, travel experiences, and restaurants. Its headquarters are located in Needham, Massachusetts. https://en.wikipedia.org/wiki/Tripadvisor
 
 # Pip List
-1. pip install nltk
-2. pip install vaderSentiment
-3. pip install wordcloud
-4. pip install pandas_profiling[notebook,html]
-5. pip install ydata_profiling
-6. pip install pillow
-7. pip install skimage
-8. pip install rake_nltk
-9. pip install counter
+```bash
+pip install nltk
+pip install vaderSentiment
+pip install wordcloud
+pip install pandas_profiling[notebook,html]
+pip install ydata_profiling
+pip install pillow
+pip install skimage
+pip install rake_nltk
+pip install counter
+```
+
 
 # Datasets
 1. TripAdvisor Hotel Review Dataset (zenodo.org)
