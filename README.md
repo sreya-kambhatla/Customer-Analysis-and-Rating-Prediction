@@ -1,5 +1,3 @@
-# Masters-Project
-
 # Introduction
 In this project, our focus will be on analyzing hotel reviews and corresponding ratings derived from customer experiences. We will delve into feature engineering and develop a deep-learning model to forecast ratings based on the reviews. Additionally, we will leverage NLP tools for extracting features and preparing the data for optimal utilization in deep learning models.
 
