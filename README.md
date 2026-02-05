@@ -1,10 +1,135 @@
-# Introduction
-In this project, our focus will be on analyzing hotel reviews and corresponding ratings derived from customer experiences. We will delve into feature engineering and develop a deep-learning model to forecast ratings based on the reviews. Additionally, we will leverage NLP tools for extracting features and preparing the data for optimal utilization in deep learning models.
+# 📊 Customer Behavior & Rating Prediction
 
-# A brief on TripAdvisor
-TripAdvisor, Inc. is a U.S.-based online travel company that manages a website and mobile app featuring user-generated content and a comparison-shopping platform. The company facilitates online reservations and bookings for hotels, transportation, lodging, travel experiences, and restaurants. Its headquarters are located in Needham, Massachusetts. https://en.wikipedia.org/wiki/Tripadvisor
+An end-to-end data analytics and machine learning project focused on analyzing customer behavior and predicting product/service ratings using SQL and Python. This project demonstrates business-focused exploratory analysis, feature engineering, sentiment signals, and predictive modeling to generate actionable insights.
 
-# Pip List
+---
+
+## 🎯 Project Objective
+
+The goal of this project is to analyze customer behavior and review data to:
+
+* Understand patterns in customer ratings and feedback
+* Extract sentiment and keyword signals from text reviews
+* Identify drivers influencing customer ratings
+* Build machine learning models to predict customer ratings
+* Translate analytical findings into business insights
+
+This project simulates a real-world business analytics workflow from raw data to predictive insights.
+
+---
+
+## 🗂 Dataset
+
+The dataset contains customer records including:
+
+* Customer attributes
+* Product / service interaction features
+* Review text and ratings
+* Behavioral and engagement indicators
+
+Text fields are processed using NLP techniques for sentiment and keyword extraction.
+
+---
+
+## 🛠 Tech Stack
+
+**Languages & Libraries**
+
+* Python
+* SQL
+* Pandas, NumPy
+* scikit-learn
+* NLTK
+* VADER Sentiment
+* RAKE (keyword extraction)
+* WordCloud
+* ydata-profiling / pandas-profiling
+* Pillow, scikit-image
+
+**Techniques**
+
+* Data cleaning & preprocessing
+* Exploratory Data Analysis (EDA)
+* Text preprocessing & NLP
+* Sentiment analysis
+* Feature engineering
+* Supervised machine learning models
+
+---
+
+## 🔎 Analysis Workflow
+
+### Data Preparation
+
+* Cleaned and standardized structured fields
+* Handled missing and inconsistent values
+* Encoded categorical variables
+* Normalized selected numeric features
+
+### Exploratory Data Analysis
+
+* Distribution analysis of ratings and behavior metrics
+* Correlation analysis between customer attributes and ratings
+* Pattern discovery across engagement variables
+* Automated profiling reports generated
+
+### Text & Sentiment Processing
+
+* Tokenization and stopword removal
+* Sentiment scoring using VADER
+* Keyword extraction using RAKE
+* Review signal enrichment for modeling
+
+### Feature Engineering
+
+* Derived sentiment features
+* Behavioral aggregates
+* Text-based indicators
+* Model-ready feature matrix creation
+
+---
+
+## 🤖 Modeling
+
+Multiple ML models were trained and evaluated for rating prediction, such as:
+
+* Regression / classification models (based on rating structure)
+* Tree-based models
+* Ensemble approaches
+
+Evaluation included:
+
+* Cross-validation
+* Error metrics / accuracy metrics
+* Feature importance analysis
+
+---
+
+## 📈 Key Insights
+
+* Customer sentiment signals strongly influence predicted ratings
+* Specific keyword clusters correlate with high and low ratings
+* Behavioral engagement features improve prediction performance
+* Combined structured + text features outperform structured data alone
+
+---
+
+## 💼 Business Value
+
+This analysis approach can help organizations:
+
+* Predict customer satisfaction scores
+* Detect early dissatisfaction signals
+* Improve targeting and retention strategies
+* Prioritize product or service improvements
+* Support data-driven customer experience decisions
+
+---
+
+## ▶️ How to Run
+
+### Install Dependencies
+
 ```bash
 pip install nltk
 pip install vaderSentiment
@@ -17,36 +142,37 @@ pip install rake_nltk
 pip install counter
 ```
 
+### Run
 
-# Datasets
-1. TripAdvisor Hotel Review Dataset (zenodo.org)
-2. 515K Hotel Reviews Data in Europe | Kaggle
+1. Open the notebook(s) in Jupyter
+2. Load the dataset into the data folder
+3. Execute cells sequentially
+4. Review EDA outputs, sentiment features, and model results
 
-# Recurrent Neural Network
-Recurrent Neural Network (RNN) is a type of Neural Network where the output from the previous step is fed as input to the current step. This is a short-term memory to process Sequential data(Speech data, Music, Sequence of words in a text). Here is a sample architecture diagram. U, V, and W are the weights of the hidden layer, the output layer, and the hidden state, respectively. xt and ot are the input vector and output result at time t, respectively
+---
 
-![image](https://github.com/sreya-kambhatla/Masters-Project/assets/145293962/824c0e17-6b21-4dee-99b2-7cffccb2af54)
+## 📌 Repository Structure
 
+```
+data/                → raw and processed datasets  
+notebooks/           → EDA and modeling notebooks  
+reports/             → profiling and visualization outputs  
+src/                 → helper scripts (if applicable)  
+```
 
-# Long Short-Term Memory Model
+---
 
-Long Short-Term Memory (LSTM) is like a special kind of memory in a computer program that's good at remembering things for a long time, especially when dealing with a bunch of information coming in a sequence, like words in a sentence.
-So, if a computer program needs to understand the meaning of a sentence or remember information for a long time, LSTM is like the brainy part that helps it do that job effectively.
+## 🚀 Future Improvements
 
-![image](https://github.com/sreya-kambhatla/Masters-Project/assets/145293962/8131230e-6c6d-4afd-a781-c27a7223e854)
+* Hyperparameter tuning
+* Model explainability (SHAP / feature attribution)
+* Dashboard layer for stakeholder reporting
+* Automated pipeline for retraining
 
-# BiLSTM Model
+---
 
-The Bidirectional Long Short-Term Memory (BiLSTM) model is like a clever reader that not only understands the context of a sentence by reading it forward but also pays attention to what comes later by reading it backward.
+## 👤 Author
 
-So, a BiLSTM is like having two brains working together to capture the full meaning of a sequence of words, which can be especially useful in tasks like understanding the sentiment of a sentence or predicting the next word in a sequence.
-
-![image](https://github.com/sreya-kambhatla/Masters-Project/assets/145293962/ecf2fd88-8eca-448f-8522-629c4c2d6a78)
-
-![image](https://github.com/sreya-kambhatla/Masters-Project/assets/145293962/cbad72fc-af52-4de7-9de6-9ee4dac2ad21)
-
-
-
-
-
-
+Sreya Kambhatla
+Data Analyst | Business Analyst
+SQL • Python • Power BI • Machine Learning
