@@ -171,8 +171,6 @@ src/                 → helper scripts (if applicable)
 
 ---
 
-## 👤 Author
+## 📜 License
 
-Sreya Kambhatla
-Data Analyst | Business Analyst
-SQL • Python • Power BI • Machine Learning
+This project is for academic and educational use. Add a formal license if distributing publicly.
